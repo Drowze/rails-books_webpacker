@@ -1,0 +1,8 @@
+<%= javascript_pack_tag 'Books' %>
+
+<%= content_tag :div,
+  id: "Books",
+  data: {
+    books: @books
+}.to_json do %>
+<% end %>
